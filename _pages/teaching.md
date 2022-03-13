@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /experiences/
-title: Internship & Teaching Experiences
+permalink: /teaching/
+title: intern & teaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
