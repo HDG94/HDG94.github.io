@@ -37,8 +37,15 @@ nav: true
 
 ---
 **Multi-Agent Hierarchical Reinforcement Learning with Dynamic Termination**
+
 <div class="row justify-content-sm-center">
-        {% include figure.html path="assets/img/aamas.jpg" title="AAMAS'19 Poster" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2 mt-3 mt-md-0">
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rlg/options.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
+    </div>
 </div>
 
 **Abstract:** In a multi-agent system, an agent's optimal policy will typically depend on the policies chosen by others. Therefore, a key issue in multi-agent systems research is that of predicting the behaviours of others, and responding promptly to changes in such behaviours. One obvious possibility is for each agent to broadcast their current intention, for example, the currently executed option in a hierarchical reinforcement learning framework. However, this approach results in inflexibility of agents if options have an extended duration and are dynamic. While adjusting the executed option at each step improves flexibility from a single-agent perspective, frequent changes in options can induce inconsistency between an agent's actual behaviour and its broadcast intention. In order to balance flexibility and predictability, we propose a dynamic termination Bellman equation that allows the agents to flexibly terminate their options. We evaluate our model empirically on a set of multi-agent pursuit and taxi tasks, and show that our agents learn to adapt flexibly across scenarios that require different termination behaviours.
@@ -48,10 +55,10 @@ nav: true
 **Replication-robust payoff-allocation for machine learning data markets**
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-2 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/aamas.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
-    TODO
+    <div class="col-sm-6 mt-3 mt-md-0">
+        TODO
     </div>
 </div>
