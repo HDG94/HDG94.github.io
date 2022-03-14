@@ -10,10 +10,10 @@ nav: true
 ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-1 mt-md-0">
         {% include figure.html path="assets/img/microsoft.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-1 mt-md-0">
      <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
      **Machine Learning Research Intern**
     </div>
@@ -30,10 +30,10 @@ data market.
 
 ---
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-1 mt-md-0">
         {% include figure.html path="assets/img/apple.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-1 mt-md-0">
      <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Apple Siri Cambridge</a>
      **Machine Learning (NLP) Intern**
     </div>
