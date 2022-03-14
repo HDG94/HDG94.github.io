@@ -9,7 +9,16 @@ nav: true
 
 ---
 **Microsoft Research Internship**
-
+Recently, submodular functions are becoming increasingly important in machine learning (ML) for modelling notions such as
+information and redundancy among entities such as data and
+features. Among these applications, a key question is payoff allocation, i.e., how to evaluate the importance of each entity towards
+the collective objective? In particular, an important notion
+that arises in the emerging submodular applications is redundancy, which may occur from abundant
+data or malicious manipulations where an agent replicates its
+resource. In this project, I present a mathematical study of the robustness and properties of game-theoretic solution concepts (e.g., the Shapley value) against replication manipulation in
+submodular games. Moreover, the findings are empirically evaluated on an emerging submodular ML application, i.e., the ML
+data market.
 
 ---
 **Siri Internship**
+I successfully designed and developed an ML user simulator which can simulate the human behaviour and achieve multi-attribute goals by carrying out multi-turn dialogues.
