@@ -10,22 +10,16 @@ nav: true
 ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-1 mt-md-0">
+    <div class="col-sm-4 mt-3 md-1 mt-md-0">
         {% include figure.html path="assets/img/microsoft.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-1 mt-md-0">
+    <div class="col-sm-8 mt-3 md-1 mt-md-0">
      <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
-     **Machine Learning Research Intern**
+     Machine Learning Research Intern
     </div>
 </div>
-Recently, submodular functions are becoming increasingly important in machine learning (ML) for modelling notions such as
-information and redundancy among entities such as data and
-features. Among these applications, a key question is payoff allocation, i.e., how to evaluate the importance of each entity towards
-the collective objective? In particular, an important notion
-that arises in the emerging submodular applications is redundancy, which may occur from abundant
-data or malicious manipulations where an agent replicates its
-resource. In this project, I present a mathematical study of the robustness and properties of game-theoretic solution concepts (e.g., the Shapley value) against replication manipulation in
-submodular games. Moreover, the findings are empirically evaluated on an emerging submodular ML application, i.e., the ML
+During this internship, I studied the properties of game-theoretic payoff allocation methods in submodular multiagent machine learning (ML) applications. Payoff allocation is a key question in multiagent systems, i.e., how to evaluate the importance of each entity towards the collective objective? However, classic literature on cooperative game theoretic solution concepts mostly focus on supermodular games. In particular, an important notion that arises in the submodular applications is redundancy, due to abundant data or malicious replicating manipulations. In this project, I studied the properties and robustness of game-theoretic solution concepts such as the Shapley value against replication manipulation in
+submodular games. And the theoretical findings are empirically evaluated on an emerging submodular ML application, i.e., the ML
 data market.
 
 ---
