@@ -2,10 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: This is a description of my TA experiences.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+During my PhD at the University of Oxford, I have been a teaching assistant (TA) for the course <a href="https://www.cs.ox.ac.uk/teaching/courses/2020-2021/cgt/">Computational Game Theory</a> taught by Prof. Michael Wooldridge and Prof. Edith Elkind. The course include key models and solution concepts of non-cooperative and cooperative game theory; and issues that arise when computing with game theoretic solution concepts, and the main approaches to overcoming these issues.
