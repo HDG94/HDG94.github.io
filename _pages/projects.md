@@ -2,13 +2,11 @@
 layout: page
 permalink: /projects/
 title: projects
-description: My projects
+description: Below is a list of selected projects during my PhD.
 nav: true
 ---
-**Overview:** Below is a list of selected projects during my PhD.
 
 
----
 **Multiagent Model-based Credit Assignment for Continuous Control**
 
 
