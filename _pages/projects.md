@@ -12,8 +12,8 @@ nav: true
 </div>
 
 ---
-<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
-**Machine Learning Research Intern**
+**Multiagent Model-based Credit Assignment for Continuous Control**
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.html path="assets/img/microsoft.png" title="example image" class="img-fluid rounded z-depth-1" %}
