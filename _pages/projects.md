@@ -21,16 +21,12 @@ nav: true
 ---
 **MDP Abstraction with Successor Features**
 
-<div class="row justify-content-sm-center">
+<div class="container">
+    {% include figure.html path="assets/img/rlg.jpg" title="AAAI RL for Games poster" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="container">
     {% include figure.html path="assets/img/rlg.pdf" title="AAAI RL for Games poster" class="img-fluid rounded z-depth-1" %}
 </div>
-
-<div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/rlg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/rlg.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-
 
 **Abstract:** Abstraction plays an important role for generalisation of knowledge and skills, and is key to sample efficient learning. In this work, we study joint temporal and state abstraction in reinforcement learning, where temporally-extended actions in the form of options induce temporal abstractions, while aggregation of similar states with respect to abstract options induce state abstractions. Many existing abstraction schemes ignore the interplay of state and temporal abstraction, consequently, considered option policies often cannot be directly transferred to new environments due to changes in the state space and transition dynamics. To address these issues, we propose a novel abstraction scheme building on successor features. This includes an algorithm for transferring abstract options across different environments, and a state abstraction mechanism which allows us to perform efficient planning with the transferred options. We achieve improved empirical performance on transfer and planning on a set of benchmark tasks.
 
