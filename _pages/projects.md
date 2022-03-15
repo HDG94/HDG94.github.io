@@ -6,7 +6,7 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<!--nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
+<nav id="navbar-example2" class="navbar fixed-bottom navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Projects</a>
   <ul class="nav nav-pills">
       <li class="nav-item dropdown">
@@ -25,10 +25,10 @@ nav: true
       </div>
     </li>
   </ul>
-</nav> -->
+</nav>
 
 
-<nav id="navbar-example3" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3">
+<!-- nav id="navbar-example3" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3">
   <a class="navbar-brand" href="#">Navbar</a>
   <nav class="nav nav-pills flex-column">
     <a class="nav-link" href="#rl1">Reinforcement Learning</a>
@@ -43,7 +43,7 @@ nav: true
       <a class="nav-link ms-3 my-1" href="#gt2">Behavioural Equilibrium</a>
     </nav>
   </nav>
-</nav>
+</nav> -->
 
 
 
