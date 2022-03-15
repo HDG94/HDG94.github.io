@@ -6,7 +6,7 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<nav id="navbar-example2" class="navbar navbar-light bg-light">
+<nav id="navbar-example2" class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
   <ul class="nav nav-pills">
       <li class="nav-item dropdown">
