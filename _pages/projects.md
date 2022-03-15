@@ -6,8 +6,8 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+<!--nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Projects</a>
   <ul class="nav nav-pills">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Reinforcement Learning</a>
@@ -25,9 +25,30 @@ nav: true
       </div>
     </li>
   </ul>
+</nav> -->
+
+
+<nav id="navbar-example3" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="nav nav-pills flex-column">
+    <a class="nav-link" href="#rl1">Reinforcement Learning</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#rl1">Multiagent Continous Control</a>
+      <a class="nav-link ms-3 my-1" href="#rl2">MDP Abstraction</a>
+      <a class="nav-link ms-3 my-1" href="#rl3">Multiagent Hierarchical RL</a>
+    </nav>
+    <a class="nav-link" href="#gt1">Game Theory</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#gt1">Submodular Games</a>
+      <a class="nav-link ms-3 my-1" href="#gt2">Behavioural Equilibrium</a>
+    </nav>
+  </nav>
 </nav>
 
-<div data-spy="scroll" data-target="#navbar-example2" data-offset="2">
+
+
+
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="10">
   <h4 id="rl1">**Multiagent Model-based Credit Assignment for Continuous Control**</h4>
   <p>
   <div class="embed-responsive embed-responsive-16by9">
