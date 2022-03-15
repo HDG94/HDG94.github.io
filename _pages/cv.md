@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: cv
 description: My resume
-nav: true
+nav: false
 ---
 
 
