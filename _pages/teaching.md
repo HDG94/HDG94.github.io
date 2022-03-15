@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /misc/
-title: Misc.
+permalink: /teaching/
+title: teaching
 description: Miscellaneous experiences.
 nav: true
 ---
