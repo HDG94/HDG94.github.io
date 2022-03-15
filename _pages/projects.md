@@ -6,37 +6,48 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<nav id="navbar" class="navbar navbar-light bg-light">
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
-  <nav class="nav nav-pills flex-column">
-    <a class="nav-link" href="#item-1">Reinforcement Learning</a>
-    <nav class="nav nav-pills flex-column">
-      <a class="nav-link ml-3 my-1" href="#item-1-1">Multiagent Continuous Control</a>
-      <a class="nav-link ml-3 my-1" href="#item-1-2">MDP Abstraction</a>
-      <a class="nav-link ml-3 my-1" href="#item-1-3">Multiagent Hierarchical RL</a>
-    </nav>
-    <a class="nav-link" href="#item-2">Game Theory</a>
-    <nav class="nav nav-pills flex-column">
-      <a class="nav-link ml-3 my-1" href="#item-3-1">Submodular Games</a>
-      <a class="nav-link ml-3 my-1" href="#item-3-2">Behavioural Equilibrium</a>
-    </nav>
-  </nav>
+  <ul class="nav nav-pills">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Reinforcement Learning</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#rl1">Multiagent Continuous Control</a>
+          <a class="dropdown-item" href="#rl2">MDP Abstraction</a>
+          <a class="dropdown-item" href="#rl3">Multiagent Hierarchical RL</a>
+        </div>
+      </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Game Theory</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#gt1">Submodular Games</a>
+        <a class="dropdown-item" href="#gt2">Behavioural Equilibrium</a>
+      </div>
+    </li>
+  </ul>
 </nav>
 
-<div data-spy="scroll" data-target="#navbar" data-offset="0">
-  <h4 id="item-1">Item 1</h4>
-  <p>contents of Item 1</p>
-  <h5 id="item-1-1">Item 1-1</h5>
-  <p>contents of Item 2</p>
-  <h5 id="item-1-2">Item 1-2</h5>
-  <p>contents of Item 3</p>
-  <h4 id="item-2">Item 2</h4>
-  <p>contents of Item 4</p>
-  <h4 id="item-3">Item 3</h4>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="rl1">**Multiagent Model-based Credit Assignment for Continuous Control**</h4>
+  <p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="480" height="270" src="https://www.youtube.com/embed/gFyVPm4svEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="caption">
+      This short video shows the formulation and demo.
+  </div>
+
+
+
+  **Abstract:** Deep reinforcement learning (RL) has recently shown great promise in robotic continuous control tasks. Nevertheless, prior research in this vein center around the centralized learning setting that largely relies on the communication availability among all the components of a robot. However, agents in the real world often operate in a decentralised fashion without communication due to latency requirements, limited power budgets and safety concerns. By formulating robotic components as a system of decentralised agents, this work presents a decentralised multiagent reinforcement learning framework for continuous control. To this end, we first develop a cooperative multiagent PPO framework that allows for centralized optimisation during training and decentralised operation during execution. However, the system only receives a global reward signal which is not attributed towards each agent. To address this challenge, we further propose a generic game-theoretic credit assignment framework which computes agent-specific reward signals. Last but not least, we also incorporate a model-based RL module into our credit assignment framework, which leads to significant improvement in sample efficiency. We demonstrate the effectiveness of our framework on experimental results on Mujoco locomotion control tasks.
+  </p>
+  <h4 id="rl2">@mdo</h4>
   <p>...</p>
-  <h5 id="item-3-1">Item 3-1</h5>
+  <h4 id="rl3">one</h4>
   <p>...</p>
-  <h5 id="item-3-2">Item 3-2</h5>
+  <h4 id="gt1">two</h4>
+  <p>...</p>
+  <h4 id="gt2">three</h4>
   <p>...</p>
 </div>
 
