@@ -6,7 +6,7 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+<nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
   <ul class="nav nav-pills">
       <li class="nav-item dropdown">
@@ -27,7 +27,7 @@ nav: true
   </ul>
 </nav>
 
-<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="2">
   <h4 id="rl1">**Multiagent Model-based Credit Assignment for Continuous Control**</h4>
   <p>
   <div class="embed-responsive embed-responsive-16by9">
