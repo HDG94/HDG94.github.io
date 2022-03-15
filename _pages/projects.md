@@ -11,7 +11,10 @@ nav: true
 
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gFyVPm4svEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="480" height="270" src="https://www.youtube.com/embed/gFyVPm4svEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    This short video shows the formulation and demo.
 </div>
 
 
@@ -66,7 +69,7 @@ nav: true
 **Replication-robust payoff-allocation for Submodular Cooperative Games**
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/submodular.png" title="Example Submodular Settings" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
