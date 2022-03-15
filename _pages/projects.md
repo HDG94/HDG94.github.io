@@ -66,11 +66,10 @@ nav: true
 **Replication-robust payoff-allocation for Submodular Cooperative Games**
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-1 mt-3 mt-md-0">
-    </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/submodular.png" title="Example Submodular Settings" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-1 mt-3 mt-md-0">
-    </div>
+</div>
+<div class="caption">
+    Example Submodular Settings
 </div>
