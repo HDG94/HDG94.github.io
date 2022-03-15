@@ -23,15 +23,15 @@ nav: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/abstraction.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/abstraction.jpg" title="We Combined Temporal + State Abstraction " class="img-fluid rounded z-depth-1" %}
     </div>
     <div class= "col-sm-5 mt-3 mt-md-0" >
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/smdp.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/smdp.png" title="Abstract SMDP Generated via Our Algorithm" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="w-100"></div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/minecraft.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/minecraft.png" title="Minecraft Setting" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -45,7 +45,7 @@ nav: true
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/options.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/options.png" title="Dynamic Termination Hierarchical RL" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
@@ -55,13 +55,14 @@ nav: true
 
 
 ---
-**Replication-robust payoff-allocation for machine learning data markets**
+**Replication-robust payoff-allocation for Submodular Cooperative Games**
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/options.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-1 mt-3 mt-md-0">
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        TODO
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/submodular.png" title="Example Submodular Settings" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-1 mt-3 mt-md-0">
     </div>
 </div>
