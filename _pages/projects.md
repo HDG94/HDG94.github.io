@@ -26,11 +26,11 @@ nav: true
         {% include figure.html path="assets/img/abstraction.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class= "col-sm-6 mt-3 mt-md-0" >
-        <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/smdp.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="w-100"></div>
-        <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/minecraft.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
