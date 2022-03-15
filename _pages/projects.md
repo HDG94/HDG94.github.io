@@ -6,7 +6,7 @@ description: Below is a list of selected projects during my PhD.
 nav: true
 ---
 
-<nav id="navbar-example2" class="navbar fixed-bottom navbar-dark bg-dark">
+<!-- nav id="navbar-example2" class="navbar fixed-bottom navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Projects</a>
   <ul class="nav nav-pills">
       <li class="nav-item dropdown">
@@ -25,19 +25,19 @@ nav: true
       </div>
     </li>
   </ul>
-</nav>
+</nav> -->
 
 
-<!-- nav id="navbar-example3" class="navbar navbar-dark bg-dark flex-column align-items-stretch p-3">
+<nav id="navbar-example3" class="navbar navbar-dark bg-dark fixed-left flex-column align-items-stretch p-3">
   <a class="navbar-brand" href="#">Navbar</a>
   <nav class="nav nav-pills flex-column">
-    <a class="nav-link" href="#rl1">Reinforcement Learning</a>
+    <a class="nav-link" href="#rl">Reinforcement Learning</a>
     <nav class="nav nav-pills flex-column">
       <a class="nav-link ms-3 my-1" href="#rl1">Multiagent Continous Control</a>
       <a class="nav-link ms-3 my-1" href="#rl2">MDP Abstraction</a>
       <a class="nav-link ms-3 my-1" href="#rl3">Multiagent Hierarchical RL</a>
     </nav>
-    <a class="nav-link" href="#gt1">Game Theory</a>
+    <a class="nav-link" href="#gt">Game Theory</a>
     <nav class="nav nav-pills flex-column">
       <a class="nav-link ms-3 my-1" href="#gt1">Submodular Games</a>
       <a class="nav-link ms-3 my-1" href="#gt2">Behavioural Equilibrium</a>
@@ -49,6 +49,7 @@ nav: true
 
 
 <div data-spy="scroll" data-target="#navbar-example2" data-offset="10">
+    <h4 id="rl">**Reinforcement Learning Projects**</h4><p>
   <h4 id="rl1">**Multiagent Model-based Credit Assignment for Continuous Control**</h4>
   <p>
   <div class="embed-responsive embed-responsive-16by9">
@@ -105,6 +106,8 @@ nav: true
 
   **Abstract:** In a multi-agent system, an agent's optimal policy will typically depend on the policies chosen by others. Therefore, a key issue in multi-agent systems research is that of predicting the behaviours of others, and responding promptly to changes in such behaviours. One obvious possibility is for each agent to broadcast their current intention, for example, the currently executed **option** in a hierarchical reinforcement learning framework. However, this approach results in inflexibility of agents if options have an extended duration and are dynamic. While adjusting the executed option at each step improves flexibility from a single-agent perspective, frequent changes in options can induce inconsistency between an agent's actual behaviour and its broadcast intention. In order to **balance flexibility and predictability**, we propose a **dynamic termination Bellman equation** that allows the agents to flexibly terminate their options. We evaluate our model empirically on a set of multi-agent pursuit and taxi tasks, and show that our agents learn to adapt flexibly across scenarios that require different termination behaviours.
   </p>
+
+  <h4 id="gt">**Game Theory and Machine Learning Projects**</h4><p>
 
   <h4 id="gt1">**Replication-robust payoff-allocation for Submodular Cooperative Games**</h4>
   <p>
