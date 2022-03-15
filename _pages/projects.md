@@ -23,13 +23,13 @@ nav: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rlg/abstraction.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/abstraction.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rlg/smdp.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/smdp.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rlg/minecraft.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/minecraft.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -42,7 +42,7 @@ nav: true
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rlg/options.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/options.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
