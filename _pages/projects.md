@@ -23,15 +23,23 @@ nav: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
+        <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/abstraction.jpg" title="We Combined Temporal + State Abstraction " class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption">
+            We Combined Temporal Abstraction + State Abstraction
+        </div>
     </div>
     <div class= "col-sm-5 mt-3 mt-md-0" >
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/smdp.png" title="Abstract SMDP Generated via Our Algorithm" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/minecraft.png" title="Minecraft Setting" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="w-100"></div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/minecraft.png" title="Minecraft Setting" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/smdp.png" title="Abstract SMDP Generated via Our Algorithm" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption">
+            Abstract SMDP Generated via Our Algorithm
         </div>
     </div>
 </div>
