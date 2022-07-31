@@ -78,8 +78,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Multiagent Systems & Game Theory  # your blog must have a name for it to show up in the nav bar
-blog_description: To be published
+blog_name: Dongge's Blogs  # your blog must have a name for it to show up in the nav bar
+blog_description: Documenting some of my projects and learning notes.
 permalink: /blog/:year/:title/
 
 # Pagination

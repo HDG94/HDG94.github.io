@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /projects/
-title: projects
+title: Projects
 description: Below is a list of selected projects during my PhD.
 nav: true
 ---

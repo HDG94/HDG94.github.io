@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /intern/
-title: internship
+title: Internship
 description: My internship experiences
 nav: true
 ---
