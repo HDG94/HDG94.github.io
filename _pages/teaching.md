@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /teaching/
-title: Teaching
-description: Miscellaneous experiences.
+permalink: /misc/
+title: Misc
+description: Teaching and reviewing experiences.
 nav: true
 ---
 
@@ -15,3 +15,13 @@ nav: true
     During my PhD at the University of Oxford, I have been a teaching assistant (TA) for the course <a href="https://www.cs.ox.ac.uk/teaching/courses/2020-2021/cgt/">Computational Game Theory</a> taught by Prof. Michael Wooldridge and Prof. Edith Elkind. The course include key models and solution concepts of non-cooperative and cooperative game theory; and issues that arise when computing with game theoretic solution concepts, and the main approaches to overcoming these issues.
     </div>
 </div>
+
+---
+
+**Reviewing**
+
+I am a reviewer for the following venues:
+- AAMAS 2024
+- ICLR 2024
+- ICML 2023
+- NeurIPS 2021, 2022, 2023
