@@ -14,7 +14,7 @@ nav: true
         {% include figure.html path="assets/img/uoe.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
-    From September 2023, I work as a postdoc research associate at the University of Edinburgh, School of Informatics on Large Language Models and Reinforcement Learning for robotics. 
+    From August 2023, I work as a postdoc research associate at the University of Edinburgh, School of Informatics on Large Language Models and Reinforcement Learning for robotics. 
     </div>
 </div>
 
