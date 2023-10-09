@@ -1,15 +1,39 @@
 ---
 layout: page
-permalink: /intern/
-title: Internship
-description: My internship experiences
+permalink: /work/
+title: Work Experience
+description: My work and internship experiences
 nav: true
 ---
-**Overview:** During my PhD, I was a **Machine Learning Research Intern** at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a> (Summer 2019) where I was supervised by <a href="https://www.tschiatschek.net/">Dr. Sebastian Tschiatschek</a>. I was a **NLP Intern** at <a href="https://www.apple.com/uk/siri/">Apple Siri Cambridge</a> (Summer 2017) where I was supervised by <a href="https://www.linkedin.com/in/thomas-voice-a67b9ab9/">Dr. Thomas Voice</a>.
+
+---
+<a href="https://www.ed.ac.uk/informatics">University of Edinburgh </a>
+**Postdoc Research Associate**
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/uoe.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+    From September 2023, I work as a postdoc research associate at the University of Edinburgh, School of Informatics on Large Language Models and Reinforcement Learning for robotics. 
+    </div>
+</div>
+
+---
+<a href="https://www.amazon.jobs/en/teams/amazon-development-centre-scotland">Amazon </a>
+**Applied Scientist II**
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/amazon.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+    From 2022 to 2023, I worked as a full-time Applied Scientist II at Amazon on developing machine learning recommender systems to provide personalized recommendations to customers. 
+    </div>
+</div>
+
 
 ---
 <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
-**Machine Learning Research Intern**
+**Internship**
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.html path="assets/img/microsoft.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -24,7 +48,7 @@ nav: true
 
 ---
 <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Apple Siri Cambridge</a>
-**Machine Learning (NLP) Intern**
+**Internship**
 <div class="row justify-content-sm-center">
     <div class="col-sm-2 mt-1 mt-md-0">
         {% include figure.html path="assets/img/apple.png" title="example image" class="img-fluid rounded z-depth-1" %}
