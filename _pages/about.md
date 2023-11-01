@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD in Computer Science @ <a href="https://www.cs.ox.ac.uk">University of Oxford </a>
+description: Postdoc in LLM and RL @ <a href="https://www.ed.ac.uk/informatics">University of Edinburgh </a>
 
 profile:
   align: right
@@ -24,7 +24,7 @@ Prior to joining UoE, I worked as an Applied Scientist II on personalized recomm
 
 **2016-22 May**  \| **PhD in Computer Science@<a href="https://www.cs.ox.ac.uk/">University of Oxford</a>**
 
-I obtained my PhD in Computer Science at the University of Oxford, supervised by <a href="https://www.cs.ox.ac.uk/people/michael.wooldridge/">Prof. Michael Wooldridge </a> and <a href="https://www.cs.ox.ac.uk/people/alex.rogers/">Prof. Alex Rogers </a>. My research interests include Multiagent Reinforcement Learning, Hierarchical Reinforcement Learning and Game Theory. In particular, my thesis studies Game-theoretic Payoff Allocation in Multiagent Machine Learning Systems.
+I obtained my PhD in Computer Science at the University of Oxford, supervised by <a href="https://www.cs.ox.ac.uk/people/michael.wooldridge/">Prof. Michael Wooldridge </a> and <a href="https://www.cs.ox.ac.uk/people/alex.rogers/">Prof. Alex Rogers</a>. My research interests include Multiagent Reinforcement Learning, Hierarchical Reinforcement Learning and Game Theory. In particular, my thesis studies Game-theoretic Payoff Allocation in Multiagent Machine Learning Systems.
 
 **2019 Jul-Oct** \|  **Intern@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge</a>**
 
