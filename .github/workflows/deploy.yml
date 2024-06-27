@@ -30,16 +30,20 @@ jobs:
     - name: Install Bundler
       run: gem install bundler
 
-    - name: Install deps
+    - name: Remove existing Gemfile.lock
       run: |
-        bundle config path vendor/bundle
-        bundle install --jobs 4 --retry 3
-        npm install -g mermaid.cli
+        rm -f Gemfile.lock
 
     - name: Deactivate pre-activated gems
       run: |
         unset GEM_PATH
         unset GEM_HOME
+
+    - name: Install deps
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        npm install -g mermaid.cli
 
     - name: Update Bundler and dependencies
       run: |
