@@ -14,9 +14,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+
+**2024 Jul** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge</a>**
+
+I joined Microsoft as a senior researcher on Generative AI to advance efficiency across AI systems.
+
+
 **2023 Aug** \| **Postdoc@<a href="https://www.ed.ac.uk/informatics">University of Edinburgh</a>**
 
-I am currently working as a postdoc research associate on NLP and RL at the University of Edinburgh, where I work with <a href="https://homepages.inf.ed.ac.uk/amos/">Prof. Amos Storkey</a>, <a href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a> and <a href="https://agents.inf.ed.ac.uk/stefano-albrecht/">Dr. Stefano Albrecht</a>.
+I worked as a postdoc research associate on LLM and RL for household robotics at the University of Edinburgh, where I work with <a href="https://homepages.inf.ed.ac.uk/amos/">Prof. Amos Storkey</a>, <a href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a> and <a href="https://agents.inf.ed.ac.uk/stefano-albrecht/">Dr. Stefano Albrecht</a>.
 
 **2022-23 Jul**  \| **Applied Scientist II@<a href="https://www.amazon.jobs/en/locations/edinburgh-scotland">Amazon</a>**
 
