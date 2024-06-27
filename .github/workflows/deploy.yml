@@ -43,12 +43,12 @@ jobs:
       run: |
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
-        npm install -g mermaid.cli
 
     - name: Update Bundler and dependencies
       run: |
         bundle update --bundler
         bundle install --jobs 4 --retry 3
+        npm install -g mermaid.cli
 
     - name: Setup deploy options
       id: setup
