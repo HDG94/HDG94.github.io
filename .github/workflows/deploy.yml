@@ -36,6 +36,11 @@ jobs:
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
 
+    - name: Deactivate pre-activated gems
+      run: |
+        unset GEM_PATH
+        unset GEM_HOME
+
     - name: Update Bundler and dependencies
       run: |
         bundle update --bundler
