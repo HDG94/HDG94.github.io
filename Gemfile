@@ -16,4 +16,3 @@ gem 'jekyll-twitter-plugin'
 gem 'jemoji'
 gem 'unicode_utils'
 gem 'webrick'
-gem 'uri', '0.13.0'  # Specify the version explicitly
