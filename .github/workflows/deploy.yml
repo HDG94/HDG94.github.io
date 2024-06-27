@@ -28,9 +28,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Install Bundler
-      run:
-          gem update --system
-          gem install bundler
+      run: |
+        gem update --system
+        gem install bundler
 
     - name: Remove existing Gemfile.lock
       run: |
