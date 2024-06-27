@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoc in LLM and RL @ <a href="https://www.ed.ac.uk/informatics">University of Edinburgh </a>
+description: Senior Researcher in GenAI @ <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
 
 profile:
   align: right
@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 **2024 Jul** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge</a>**
 
-I joined Microsoft as a senior researcher on Generative AI to advance efficiency across AI systems.
+I am joining Microsoft as a senior researcher on Generative AI to advance the efficiency across AI systems.
 
 
 **2023 Aug** \| **Postdoc@<a href="https://www.ed.ac.uk/informatics">University of Edinburgh</a>**
