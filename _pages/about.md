@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Senior Researcher in GenAI @ <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge </a>
+description: Senior Researcher in GenAI @ <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge </a>
 
 profile:
   align: right
@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-**2024 Jul** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge</a>**
+**2024 Jul** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge</a>**
 
 I am joining Microsoft as a senior researcher on Generative AI to advance the efficiency across AI systems.
 
