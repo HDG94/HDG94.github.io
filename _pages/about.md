@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Senior Researcher in GenAI @ <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge </a>
+description: Senior Researcher in LLM Agents @ <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge </a>
 
 profile:
   align: right
@@ -14,15 +14,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+**2025 Dec** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge</a>**
+
+I got promoted to Senior Researcher (L64).
 
 **2024 Jul** \| **Senior Researcher@<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Cambridge</a>**
 
-I am joining Microsoft as a senior researcher on Generative AI to advance the efficiency across AI systems.
+I joined Microsoft as a Senior Researcher (L63) working on exciting applied research projects on LLM Agents.
 
 
 **2023 Aug** \| **Postdoc@<a href="https://www.ed.ac.uk/informatics">University of Edinburgh</a>**
 
-I worked as a postdoc research associate on LLM and RL for household robotics at the University of Edinburgh, where I work with <a href="https://homepages.inf.ed.ac.uk/amos/">Prof. Amos Storkey</a>, <a href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a> and <a href="https://agents.inf.ed.ac.uk/stefano-albrecht/">Dr. Stefano Albrecht</a>.
+I worked as a postdoc on LLM and RL for personalized household robotics at the University of Edinburgh, where I work with <a href="https://homepages.inf.ed.ac.uk/amos/">Prof. Amos Storkey</a>, <a href="https://homepages.inf.ed.ac.uk/pbell1/">Prof. Peter Bell</a> and <a href="https://agents.inf.ed.ac.uk/stefano-albrecht/">Dr. Stefano Albrecht</a>.
 
 **2022-23 Jul**  \| **Applied Scientist II@<a href="https://www.amazon.jobs/en/locations/edinburgh-scotland">Amazon</a>**
 
