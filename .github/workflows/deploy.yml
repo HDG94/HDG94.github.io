@@ -10,6 +10,9 @@ on:
       - master
       - main
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -29,6 +32,15 @@ jobs:
       - name: Install Mermaid CLI
         run: npm install -g @mermaid-js/mermaid-cli
 
+      - name: Ensure Faraday retry middleware
+        run: |
+          if ! bundle info faraday-retry > /dev/null 2>&1; then
+            bundle add faraday-retry
+          fi
+
+      - name: Test Jekyll build
+        run: bundle exec jekyll build --trace
+
       - name: Setup deploy options
         id: setup
         run: |
@@ -46,6 +58,6 @@ jobs:
 
       - name: Deploy website
         run: |
-          yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+          printf "y\n" | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
             --src ${{ steps.setup.outputs.SRC_BRANCH }} \
             --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
