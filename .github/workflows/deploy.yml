@@ -28,23 +28,25 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y imagemagick webp libjpeg-dev libpng-dev libwebp-dev
 
-      - name: Debug problematic image
+      - name: Repair problematic image 4
         run: |
-          echo "ImageMagick version:"
-          convert -version
-
-          echo "Find files matching assets/img/4.*:"
+          echo "Looking for assets/img/4.*"
           ls -lh assets/img/4.* || true
 
-          echo "Identify image 4:"
-          identify -verbose assets/img/4.* || true
+          echo "Trying to identify image 4"
+          identify assets/img/4.* || true
 
-          echo "Try manual conversion of image 4:"
-          mkdir -p /tmp/img-test
-          convert assets/img/4.* -resize 480x /tmp/img-test/4-480.webp
+          echo "Re-exporting image 4 to a cleaner JPEG"
+          if ls assets/img/4.* 1> /dev/null 2>&1; then
+            original_file=$(ls assets/img/4.* | head -n 1)
+            convert "$original_file" -auto-orient -strip -resize '2000x2000>' assets/img/4-clean.jpg
+            rm -f assets/img/4.*
+            mv assets/img/4-clean.jpg assets/img/4.jpg
+          fi
 
-          echo "Manual conversion succeeded:"
-          ls -lh /tmp/img-test/
+          echo "Image 4 after repair:"
+          ls -lh assets/img/4.* || true
+          identify assets/img/4.* || true
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
