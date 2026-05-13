@@ -28,15 +28,23 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y imagemagick webp libjpeg-dev libpng-dev libwebp-dev
 
-      - name: Debug ImageMagick and image assets
+      - name: Debug problematic image
         run: |
+          echo "ImageMagick version:"
           convert -version
-          echo "Listing image files:"
-          find assets/img -maxdepth 1 -type f | sort
-          echo "Checking image metadata:"
-          identify assets/img/* || true
-          echo "Testing likely failing image:"
-          identify assets/img/4.* || true
+
+          echo "Find files matching assets/img/4.*:"
+          ls -lh assets/img/4.* || true
+
+          echo "Identify image 4:"
+          identify -verbose assets/img/4.* || true
+
+          echo "Try manual conversion of image 4:"
+          mkdir -p /tmp/img-test
+          convert assets/img/4.* -resize 480x /tmp/img-test/4-480.webp
+
+          echo "Manual conversion succeeded:"
+          ls -lh /tmp/img-test/
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
